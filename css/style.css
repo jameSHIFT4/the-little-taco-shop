@@ -19,3 +19,27 @@ caption {
   border-collapse: separate;
   padding: 0.5rem;
 }
+
+/* Code to make table look better */
+
+table {
+  border: 1px solid #333;
+  border-top: none;
+}
+
+caption {
+  border-bottom: none;
+}
+
+tfoot td {
+  text-align: center;
+}
+
+.jameshift4 {
+  text-decoration: none;
+  color: #333;
+}
+
+.jameshift4:hover {
+  color: hsla(0, 0%, 20%, 0.8);
+}
