@@ -1,5 +1,6 @@
 html {
   font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 body {
@@ -42,4 +43,33 @@ tfoot td {
 
 .jameshift4:hover {
   color: hsla(0, 0%, 20%, 0.8);
+}
+
+/* Code to turn capital S's into dollar signs */
+
+.dollar {
+  position: absolute;
+  opacity: 0;
+  user-select: none;
+  color: #d4af37;
+  text-decoration: none;
+  height: 0;
+  width: 0;
+  transition: opacity 0.5s ease;
+}
+
+.capital-s {
+  transition: color 0.5s ease;
+}
+
+.title-dollar-box:hover .dollar {
+  opacity: 1;
+}
+
+.title-dollar-box:active .dollar {
+  color: #ff0000;
+}
+
+.title-dollar-box:hover .capital-s {
+  color: rgba(0, 0, 0, 0);
 }
