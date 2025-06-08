@@ -36,26 +36,13 @@ tfoot td {
   text-align: center;
 }
 
-.jameshift4 {
-  text-decoration: none;
-  color: #333;
-}
-
-.jameshift4:hover {
-  color: hsla(0, 0%, 20%, 0.8);
-}
-
 /* Code to turn capital S's into dollar signs */
 
-.money-box {
+.capital-s {
   --jameshift4-color: #333;
   position: relative;
   text-decoration: none;
-}
-
-.capital-s {
   color: var(--jameshift4-color);
-  position: relative;
   transition: color 0.5s ease;
 }
 
@@ -71,14 +58,14 @@ tfoot td {
   transition: color 0s, opacity 0.5s ease;
 }
 
-.money-box:hover .capital-s {
+.capital-s:hover {
   color: rgba(0, 0, 0, 0);
 }
 
-.money-box:hover .dollar {
+.capital-s:hover .dollar {
   opacity: 1;
 }
 
-.money-box:active .dollar {
+.capital-s:active .dollar {
   color: #d4af37 !important;
 }
