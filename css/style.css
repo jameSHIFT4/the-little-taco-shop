@@ -46,7 +46,7 @@ tfoot td {
   transition: color 0.5s ease;
 }
 
-.dollar {
+.dollar-sign {
   color: var(--jameshift4-color) !important;
   position: absolute;
   opacity: 0;
@@ -62,10 +62,10 @@ tfoot td {
   color: rgba(0, 0, 0, 0);
 }
 
-.capital-s:hover .dollar {
+.capital-s:hover .dollar-sign {
   opacity: 1;
 }
 
-.capital-s:active .dollar {
+.capital-s:active .dollar-sign {
   color: #d4af37 !important;
 }

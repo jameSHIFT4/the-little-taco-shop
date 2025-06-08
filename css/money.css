@@ -22,11 +22,12 @@ h1 {
   padding: 2rem;
 }
 
-.dollar {
+.dollar-sign {
+  top: 0;
   left: 0.02em;
 }
 
-.capital-s:active .dollar {
+.capital-s:active .dollar-sign {
   color: #ff0000 !important;
 }
 
