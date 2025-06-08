@@ -22,9 +22,26 @@ h1 {
   padding: 2rem;
 }
 
+.dollar {
+  left: 0.02em;
+}
+
 .capital-s:active .dollar {
   color: #ff0000 !important;
 }
+
+footer p {
+  font-weight: bold;
+  margin: 0;
+  padding: 20px 0 24px;
+  border-top: 3px solid #333;
+}
+
+.jame:active .dollar {
+  color: #ff0000 !important;
+}
+
+/* Emoji animation code */
 
 .money-face-1,
 .money-face-2,
